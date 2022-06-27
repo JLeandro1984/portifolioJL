@@ -13,11 +13,12 @@
 
 .experiencia-texto {
   font-size: 1.5rem;
-  line-height: 1.33; /*altura de linha*/
-  max-width: 40ch; /*quebra ao atingir 40 caracteres*/
+  line-height: 1.33;
+  max-width: 40ch;
   margin-bottom: 60px;
   color: #525252;
 }
+
 .experiencia-texto strong {
   color: #141414;
 }
@@ -27,8 +28,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  margin-bottom: 20px;
   background: #f5f5f5;
+  margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
 }
@@ -43,6 +44,7 @@
   top: 20px;
   left: -4px;
 }
+
 .empresa-ano {
   position: absolute;
   top: 22px;
@@ -55,12 +57,12 @@
 
 .empresa-titulo {
   font-size: 1.125rem;
-  line-height: 1.1; /*altura de linha*/
+  line-height: 1.1;
   font-weight: bold;
 }
 
 .empresa-texto {
-  font-size: 00.875rem;
+  font-size: 0.875rem;
   line-height: 1.4;
   color: #525252;
 }
@@ -85,24 +87,17 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
-
   .experiencia .subtitulo {
     color: #141414;
   }
-
   .experiencia-texto {
     font-size: 1.25rem;
   }
-
   .empresa-ano {
     position: initial;
-    order: 1; /*como não tem ordem definida vai ser o ultmo elemento*/
-    width: initial; /*inicial*/
+    order: 1;
+    width: initial;
     text-align: left;
-  }
-
-  .empresa-ano::before {
-    content: "Ano: ";
   }
 }
 
